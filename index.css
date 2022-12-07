@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+
+}
+
+.menu-container {
+
+    padding: 30px;
+    background-color: aqua;
+    flex:1;
+}
+.content{
+    flex: 4;
+
+}
+
+.input-search {
+    padding: 8px;
+    width: 200px;
+    border: solid 1px gray;
+}
+
+.list-products {
+    margin: 50px 0px; 
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* justify-content: space-between; No hay necesidad de colocarle medida de alto a la caja, con gap genenera el "PADDING" */
+    /* height: 200px; */
+}
+
+.item-product {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.range-price {
+    text-align: center;
+}
+
+.title-range {
+    font-size: 35px;
+    color: red;
+}
+
+.container-range {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-range {
+    margin: 10px 0px;
+    width: 80%;
+
+}
+
+.number-range {
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.cards-watch{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px
+    
+
+}
+.card-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    gap:30px
+}
+.image-product{
+    width: 100px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.price-product{
+    font-weight: 700;
+}
